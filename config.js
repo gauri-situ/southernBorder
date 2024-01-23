@@ -102,45 +102,45 @@ var config = {
             ]
         },
         
-        // {
-        //     id: 'migrantCOO',
-        //     alignment: 'full',
-        //     hidden: true,
-        //     title: '',
-        //     image: '',
-        //     description: '',
-        //     location: {
-        //         center: [-21.04430, 20.34695],
-        //         zoom: 2.14,
-        //         pitch: 0.00,
-        //         bearing: 0.00
-        //     },
-        //     mapAnimation: 'flyTo',
-        //     rotateAnimation: false,
-        //     callback: '',
-        //     onChapterEnter: [
-        //         {
-        //             layer: 'migrantCOO',
-        //             opacity: 1,
-        //             duration: 50
-        //         },
-        //         {
-        //             layer: 'travel',
-        //             opacity: 0.5,
-        //             duration: 50
-        //         }
-        //     ],
-        //     onChapterExit: [
-        //         {
-        //             layer: 'migrantCOO',
-        //             opacity: 0
-        //         },
-        //         {
-        //             layer: 'travel',
-        //             opacity: 0
-        //         }
-        //     ]
-        // },
+        {
+            id: 'migrantCOO',
+            alignment: 'full',
+            hidden: true,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [-21.04430, 20.34695],
+                zoom: 2.14,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'migrantCOO',
+                    opacity: 1,
+                    duration: 50
+                },
+                {
+                    layer: 'travel',
+                    opacity: 0.5,
+                    duration: 50
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'migrantCOO',
+                    opacity: 0
+                },
+                {
+                    layer: 'travel',
+                    opacity: 0
+                }
+            ]
+        },
         {
             id: 'border-surveillance',
             alignment: 'right',
